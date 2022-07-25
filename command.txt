@@ -1,0 +1,5 @@
+docker-compose build
+
+docker-compose run --rm app django-admin startproject student__management_system .
+
+docker-compose up
